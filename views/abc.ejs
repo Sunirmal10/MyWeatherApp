@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="header">
+            <form action="/redirect" method="post">
+                <button class="btn">WeatherApp </button>
+            </form>
+        </div>
+        <div class="body">
+            <div class="wicon"><img src='<%= wicon %>' id="img"></div>
+            <div class="temp"><i class="fa-solid fa-temperature-half" id="tempid"></i> <%= tempa %> °C </div>
+            <div class="des"><i class="fa-solid fa-cloud" id="desid"></i> <%= des %></div>
+            <div class="cityState"><i class="fa fa-map-marker" aria-hidden="true" id="loc"></i> <%= city %>, <%= count %></div>
+            <div class="feel">Feels like: <%= feel %> °C </div>
+            <div class="humid"><i class="fa-solid fa-droplet-percent"></i></i>Humidity: <%= humid %> %</div>
+        </div>
+        
+           
+        
+
+
+
+
+    </div>
+</body>
+</html>
