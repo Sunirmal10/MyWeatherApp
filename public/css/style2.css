@@ -40,6 +40,10 @@ border-bottom: 2px solid  rgb(113, 86, 126);
     background-color: var(--primary);
     color: aliceblue;
 }
+#home {
+    padding: 5px;
+    padding-bottom: 10px;
+}
 .btn {
 height: 50px;
 display: flex;
