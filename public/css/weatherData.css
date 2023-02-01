@@ -1,28 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 * {
     font-family: 'Source Sans Pro', sans-serif;
-    
-}
-:root{
-    --primary:rgb(148, 148, 216);
+    color: var(--darktwo);
 }
 
-body {
-    background-color: var(--primary);
-}
+:root {
+        --primary: #f09494;
+        --secondary: #ffdaab;
+        --tertiary: #ddffab;
+        --blue: #abe4ff;
+        --purp: #d9abff;
+        --darkone: #51425f;
+        --darktwo: #2e1437;
+    }
 
+    body {
+        background: deepskyblue;
+        }
 .container1 {
+position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
 margin: auto;
 width: 300px;
-height: 400px;
+height: 410px;
 display: flex;
 flex-direction: column;
-background-color: aliceblue;
+background-color: var(--secondary);
 border: none;
-border-radius: 5px;
-box-shadow: 4px 4px 8px 0px rgb(113, 86, 126),
-            3px 3px 7px 1px rgb(241, 238, 243);
-    
+border-radius: 10px;
+box-shadow: 1px 1px 12px 5px var(--primary);  
 }
 
 .header {
@@ -32,17 +41,21 @@ justify-content: center;
 align-items: center;
 font-size: x-large;
 font-weight:bold;
-color:   rgb(113, 86, 126);
-border-bottom: 2px solid  rgb(113, 86, 126);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+color:   var(--primary);
+background-color: var(--blue);
 }
 .btn:hover {
     cursor: pointer;
-    background-color: var(--primary);
+    background-color: deepskyblue;
     color: aliceblue;
 }
 #home {
     padding: 5px;
     padding-bottom: 10px;
+    color: var(--darkone);
+
 }
 .btn {
 height: 50px;
@@ -51,8 +64,8 @@ justify-content: center;
 align-items: center;
 font-size: x-large;
 font-weight:bold;
-color:rgb(113, 86, 126);
-background-color: aliceblue;
+color: var(--darktwo);
+background-color: var(--blue);
 border: none;
 }
 .body{
@@ -60,8 +73,11 @@ border: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     height: 100%;
     width: 100%;
+    background-color: var(--secondary);
     
 }
 .wicon {
@@ -74,7 +90,8 @@ border: none;
 }
 
 .wicon #img {
-    background-color: rgb(148, 148, 216);
+    background-color: white;
+    border-radius: 5px;
     
 }
 .temp, .des, .cityState, .feel, .humid {
