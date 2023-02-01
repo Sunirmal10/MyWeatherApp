@@ -29,7 +29,7 @@ The API key needs to be included via the `API_KEY` environment variable.
 
 ## Deployment
 
-To deploy this project run
+To deploy this project locally, run
 
 ```sh
   npm start
