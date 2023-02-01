@@ -1,129 +1,131 @@
- @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 * {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: var(--darktwo);
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--darktwo);
 }
 
 :root {
-        --primary: #f09494;
-        --secondary: #ffdaab;
-        --tertiary: #ddffab;
-        --blue: #abe4ff;
-        --purp: #d9abff;
-        --darkone: #51425f;
-        --darktwo: #2e1437;
-    }
+  --primary: #f09494;
+  --secondary: #ffdaab;
+  --tertiary: #ddffab;
+  --blue: #abe4ff;
+  --purp: #d9abff;
+  --darkone: #51425f;
+  --darktwo: #2e1437;
+}
 
-    body {
-        background: deepskyblue;
-        }
+body {
+  background: deepskyblue;
+}
 .container1 {
-position: absolute;
-top:0;
-bottom: 0;
-left: 0;
-right: 0;
-margin: auto;
-width: 300px;
-height: 410px;
-display: flex;
-flex-direction: column;
-background-color: var(--secondary);
-border: none;
-border-radius: 10px;
-box-shadow: 1px 1px 12px 5px var(--primary);  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 300px;
+  height: 410px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px 5px var(--primary);
 }
 
 .header {
-height: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: x-large;
-font-weight:bold;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-color:   var(--primary);
-background-color: var(--blue);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: var(--primary);
+  background-color: var(--blue);
 }
 .btn:hover {
-    cursor: pointer;
-    background-color: deepskyblue;
-    color: aliceblue;
+  cursor: pointer;
+  background-color: deepskyblue;
+  color: aliceblue;
 }
 #home {
-    padding: 5px;
-    padding-bottom: 10px;
-    color: var(--darkone);
-
+  padding: 5px;
+  padding-bottom: 10px;
+  color: var(--darkone);
 }
 .btn {
-height: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: x-large;
-font-weight:bold;
-color: var(--darktwo);
-background-color: var(--blue);
-border: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: var(--darktwo);
+  background-color: var(--blue);
+  border: none;
 }
-.body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 100%;
-    width: 100%;
-    background-color: var(--secondary);
-    
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: var(--secondary);
 }
 .wicon {
-    
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .wicon #img {
-    background-color: white;
-    border-radius: 5px;
-    
+  background-color: white;
+  border-radius: 5px;
 }
-.temp, .des, .cityState, .feel, .humid {
-    display: flex;
-    justify-content: center;
-    font-size:large;
-    font-weight:bold;
+.temp,
+.des,
+.cityState,
+.feel,
+.humid {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
 }
-.temp{
-    font-size:40px;
-    font-weight: 600;
-    height: 60px;
-    align-items: flex-start;
+.temp {
+  font-size: 40px;
+  font-weight: 600;
+  height: 60px;
+  align-items: flex-start;
 }
-.des, .cityState {
-    height: 40px;
+.des,
+.cityState {
+  height: 40px;
 }
 
-#desid, #loc {
-    display: flex;
-    padding-right: 7px;
-    padding-top: 2px;
+#desid,
+#loc {
+  display: flex;
+  padding-right: 7px;
+  padding-top: 2px;
 }
 #tempid {
-    display: flex;
-    padding-top: 7px;
-    padding-right: 7px;
+  display: flex;
+  padding-top: 7px;
+  padding-right: 7px;
 }
 
-.feel, .humid {
-    font-size: medium;
-    width: 150px;
-    height: 30px;
-    align-items: flex-start;
+.feel,
+.humid {
+  font-size: medium;
+  width: 150px;
+  height: 30px;
+  align-items: flex-start;
 }
