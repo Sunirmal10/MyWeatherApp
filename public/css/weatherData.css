@@ -86,7 +86,7 @@ body {
 }
 
 .wicon #img {
-  background-color: white;
+  background-color: var(--blue);
   border-radius: 5px;
 }
 .temp,
